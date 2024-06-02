@@ -1,9 +1,4 @@
 # YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection
-
->[YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection](https://arxiv.org/abs/2402.09329)
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/yolov8-am-yolov8-with-attention-mechanisms/object-detection-on-grazpedwri-dx)](https://paperswithcode.com/sota/object-detection-on-grazpedwri-dx?p=yolov8-am-yolov8-with-attention-mechanisms)
-
 ## Architecture
 <p align="center">
   <img src="img/figure_architecture.jpg" width="1024" title="details">
@@ -166,14 +161,5 @@ You can set the value in the `./ultralytics/cfg/default.yaml`.
 ```
 * Example Train & Val Steps (yolov8m_ECA):
 ```
-  python start_train.py --model ./ultralytics/cfg/models/v8/yolov8m_ECA.yaml --data_dir ./GRAZPEDWRI-DX/data/meta.yaml
-```
-
-## Related Works
-
-<details><summary> <b>Expand</b> </summary>
-
-* [https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8](https://github.com/RuiyangJu/Bone_Fracture_Detection_YOLOv8)
-* [https://github.com/RuiyangJu/YOLOv9-Fracture-Detection](https://github.com/RuiyangJu/YOLOv9-Fracture-Detection)
 
 </details>
