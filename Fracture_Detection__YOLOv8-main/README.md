@@ -1,4 +1,4 @@
-# YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection
+# Deep Learning for Pediatric Wrist Fracture Detection Using YOLOv8 Algorithm
 ## Architecture
 <p align="center">
   <img src="img/figure_architecture.jpg" width="1024" title="details">
@@ -14,15 +14,6 @@
 | YOLOv8+ResGAM | 1024 | 49.29M | 183.5G | 0.64 | 64.98% | 41.75% | 18.1ms |
 | YOLOv8+ResCBAM | 1024 | 53.87M | 196.2G | 0.64 | 65.78% | 42.16% | 8.7ms |
 
-## Citation
-If you find our paper useful in your research, please consider citing:
-
-    @article{chien2024yolov8am,
-      title={YOLOv8-AM: YOLOv8 with Attention Mechanisms for Pediatric Wrist Fracture Detection},
-       author={Chun-Tse Chien and Rui-Yang Ju and Kuang-Yi Chou and Enkaer Xieerke and Jen-Shiun Chiang},
-      journal={arXiv preprint arXiv:2402.09329},
-      year={2024}
-    }
 
 ## Requirements
 * Linux (Ubuntu)
@@ -39,7 +30,7 @@ If you find our paper useful in your research, please consider citing:
 ### Download the dataset
 * You can download the GRAZPEDWRI-DX Dataset on this [Link](https://figshare.com/articles/dataset/GRAZPEDWRI-DX/14825193).
 ### Split the dataset
-* To split the dataset into training set, validation set, and test set, you should first put the image and annotatation into `./GRAZPEDWRI-DX/data/images`, and `./GRAZPEDWRI-DX/data/labels`.
+* To split the dataset into a training set, validation set, and test set, you should first put the image and annotatation into `./GRAZPEDWRI-DX/data/images`, and `./GRAZPEDWRI-DX/data/labels`.
 * And then you can split the dataset as the following step:
   ```
     python split.py
