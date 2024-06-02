@@ -1,7 +1,7 @@
 # Deep Learning for Pediatric Wrist Fracture Detection Using YOLOv8 Algorithm
 
 # Abstract:  
-<p align="center">
+<p>
 Wrist fractures are common, particularly among children who experience a high incidence of 
 such injuries. Before surgery, X-ray imaging is typically required, with treatment plans 
 informed by radiologist analysis. The rapid advancement of neural networks has led to the 
