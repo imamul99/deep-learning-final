@@ -1,4 +1,6 @@
-Abstract:  
+# Deep Learning for Pediatric Wrist Fracture Detection Using YOLOv8 Algorithm
+
+# Abstract:  
 Wrist fractures are common, particularly among children who experience a high incidence of 
 such injuries. Before surgery, X-ray imaging is typically required, with treatment plans 
 informed by radiologist analysis. The rapid advancement of neural networks has led to the 
@@ -15,5 +17,4 @@ ResCBAM achieved a state-of-the-art mean Average Precision at IoU 50 (mAP 50) of
 up from 63.6%. Meanwhile, the model with GAM achieved only a marginal increase of 64.2%, 
 leading to the development of ResGAM, which improved mAP 50 to 65.0%. 
 
-Keywords: Deep Learning, Fracture Detection, Object Detection,  Medical Image Processing,  
-Radiology, X-ray Imaging.
+# Keywords: Deep Learning, Fracture Detection, Object Detection,  Medical Image Processing,  Radiology, X-ray Imaging.
