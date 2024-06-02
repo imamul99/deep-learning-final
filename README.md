@@ -14,5 +14,6 @@ trained on the GRAZPEDWRI-DX dataset. Results show that the YOLOv8-AM model with
 ResCBAM achieved a state-of-the-art mean Average Precision at IoU 50 (mAP 50) of 65.8%, 
 up from 63.6%. Meanwhile, the model with GAM achieved only a marginal increase of 64.2%, 
 leading to the development of ResGAM, which improved mAP 50 to 65.0%. 
+
 Keywords: Deep Learning, Fracture Detection, Object Detection,  Medical Image Processing,  
 Radiology, X-ray Imaging.
